@@ -1,0 +1,141 @@
+body{
+    margin:0;
+}
+
+/** header **/
+
+.header{
+  background-color: beige;
+}
+
+.name{
+    padding-left: 20px;
+    
+}
+.nav-link:hover{
+  color: rgb(159, 111, 24) !important;
+}
+
+/** home section **/
+
+
+ 
+  /** about section **/
+
+  .sec-two{
+  background-color: beige;
+  
+  }
+.text-color{
+    color: darkgreen;
+    font-weight: 500;
+}
+
+
+/** skills section **/
+
+.display{
+  display: flex;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.box1{
+  width: 250px;
+  height:60px;
+  background-color:bisque;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.icon{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+    
+.skill{
+  padding-top: 8px;
+}
+.box2{
+  width: 250px;
+  height:60px;
+  background-color:rgb(250, 218, 228);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+  
+}
+.box3{
+  width: 250px;
+  height:60px;
+  background-color:lightblue;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+  
+}
+.box4{
+  width: 250px;
+  height:60px;
+  background-color:rgb(187, 236, 187);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.box5{
+
+  width: 250px;
+  height:60px;
+  background-color:rgb(230, 230, 173);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+
+  
+}
+.box1:hover{
+  box-shadow: 5px 5px 00 var(darkgreen);
+}
+
+
+/** project section **/
+
+.sec-four{
+  background-color: beige;
+}
+.projects{
+  display: flex;
+}
+
+
+/** contact section **/
+
+.sec-five{
+  background-color: beige;
+  width: 100%;
+}
+
+.icon-two{
+  padding-left: 5px;
+}
+
+
+/** media query **/
+
+@media screen and (max-width:350px) {
+  
+.email{
+  font-size: 10px;
+}
+.phone{
+  font-size: 10px;
+}
+}
